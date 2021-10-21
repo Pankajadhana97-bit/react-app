@@ -9,7 +9,7 @@ const Product = (props) => {
 				<span className="bg-gray-400 py-1  rounded-full text-sm px-4 text-center">{props.product.size}</span>
 				<div className="flex items-center justify-between mt-2">
 					<span className="bg-green-100 rounded-full py-1 px-3">{`₹ ${props.product.price}`}</span>
-					<button className="bg-yellow-500 py-1 px-4 rounded-full font-bold  hover:bg-yellow-700">Add</button>
+					<button className="bg-yellow-500 py-1 px-4 rounded-full font-bold  hover:bg-yellow-700 ring">Add</button>
 				</div>
 			</div>
 		</Link>

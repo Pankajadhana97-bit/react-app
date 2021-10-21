@@ -12,8 +12,8 @@ export default function App() {
 				<Navigation/>
 				<Switch>
           <Route path="/" component={Home} exact></Route>
-					<Route path="/products" component={Products}></Route>
-				  <Route path="/products/:_id" component={SingleProduct} exact ></Route>
+					<Route path="/products" component={Products} exact ></Route>
+				  <Route path="/products/:_id" component={SingleProduct}></Route>
 					<Route path="/cart" component={Cart}></Route>
 				</Switch>
 			</Router>
